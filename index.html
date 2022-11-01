@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Melody's Timer Web App</title>
+
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="timer">
+        <button onClick="hourUp()">up</button>
+        <p id="hour">0</p>
+        <button onClick="hourDown()">down</button>
+        <p id=>H</p>
+    </div>
+
+    <div class="timer">
+        <button onClick="minuteUp()">up</button>
+        <p id="minute">0</p>
+        <button onClick="minuteDown()">down</button>
+        <p>M</p>
+    </div>
+
+    <div class="timer">
+        <button onClick="secondUp()">up</button>
+        <p id="second">0</p>
+        <button onClick="secondDown()">down</button>
+        <p>S</p>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <button onClick="startTimer()">start timer</button>
+
+    <div class="modal" id="myModal">
+        <p>Time's Up!</p>
+        <button onClick="closeModal()">close</button>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body {
+    background-color: lavender;
+}
+
+.timer button {
+    width: 70px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+}
+
+p {
+    color: grey;
+    border-width: 1px;
+    border-color: darkgrey;
+    border-style: dashed;
+    padding: 5px;
+
+}
+
+.timer {
+    width: 10%;
+    text-align: center;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+button {
+    width: 30%;
+    background-color: lightcyan;
+    color: black;
+    border-radius: 10px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-color:aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    background-color: darkgrey;
+}
